@@ -35,7 +35,7 @@ var configuration = Argument("configuration", "Release");
 // CONFIGURATION
 ///////////////////////////////////////////////////////////////////////////////
 
-var MainRepo = "VitalElement/AvalonStudio.Toolchains.ClangToolchain";
+var MainRepo = "VitalElement/AvalonStudio.Toolchains.LDC";
 var MasterBranch = "master";
 var ReleasePlatform = "Any CPU";
 var ReleaseConfiguration = "Release";
