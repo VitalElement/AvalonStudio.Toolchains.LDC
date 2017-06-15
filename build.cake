@@ -189,7 +189,7 @@ public NuGetPackSettings GetPackSettings(string rid)
 {
     var nuspecNuGetBehaviors = new NuGetPackSettings()
     {
-        Id = "AvalonStudio.Toolchains.Clang." + rid,
+        Id = "AvalonStudio.Toolchains.LDC." + rid,
         Version = version,
         Authors = new [] { "VitalElement" },
         Owners = new [] { "Dan Walmsley" },
@@ -198,7 +198,7 @@ public NuGetPackSettings GetPackSettings(string rid)
         RequireLicenseAcceptance = false,
         Symbols = false,
         NoPackageAnalysis = true,
-        Description = "Clang Toolchain for AvalonStudio",
+        Description = "LDC Toolchain for AvalonStudio",
         Copyright = "Copyright 2017",
         Tags = new [] { "clang", "AvalonStudio", "Toolchain" },
         Files = new []
